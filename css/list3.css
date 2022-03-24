@@ -1,0 +1,672 @@
+/* 头部模块 */
+body {
+  height: auto;
+  background-color: #f1f1f1;
+}
+
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 64px;
+  vertical-align: middle;
+  /* background-color: pink; */
+  z-index: 9;
+  background-color: #fff;
+}
+
+.header1 {
+  margin-top: 10px;
+}
+
+.logo {
+  padding-top: 10px;
+  display: inline-block;
+  margin-left: 60px;
+  width: 139px;
+  height: 45px;
+}
+
+.logo img {
+  vertical-align: middle;
+}
+
+.nav-top {
+  display: inline-block;
+  margin: 0 395px 0 53px;
+  vertical-align: middle;
+}
+
+.nav-top li {
+  float: left;
+  margin-right: 50px;
+  height: 33px;
+  line-height: 33px;
+  color: #666;
+  font-size: 16px;
+}
+
+.nav-top li a {
+  font-size: 16px;
+  display: inline-block;
+  height: 33px;
+  width: 64px;
+  color: #7d7d7d;
+}
+
+.nav-top i {
+  display: inline-block;
+  margin-right: 8px;
+  width: 24px;
+  height: 24px;
+  vertical-align: -5px;
+  background: url(../FANART/jingling.png) -160px -87px no-repeat;
+}
+
+.nav-top .item2 {
+  background: url(../FANART/jingling.png) -189px 0 no-repeat;
+}
+
+.nav-top .item3 {
+  background: url(../FANART/jingling.png) -160px -58px no-repeat;
+}
+
+.nav-top .item4 {
+  background: url(../FANART/jingling.png) -29px -214px no-repeat;
+}
+
+.nav-top .on {
+  border-bottom: 3px solid #2bbbdc !important;
+  color: #2bbbdc !important;
+}
+
+/* 搜索模块 */
+.header-right {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.search {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+}
+
+.search input {
+  width: 176px;
+  height: 32px;
+  background-color: #f1f1f1;
+  border: 1px solid #c9eef6;
+  border-radius: 4px;
+  padding: 0 33px 0 12px;
+
+}
+
+.search a {
+  display: inline-block;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+  width: 17px;
+  height: 17px;
+  background: url(../FANART/jingling.png) -44px -239px no-repeat;
+}
+
+.header-right .xiaoxi {
+  vertical-align: -7px;
+  position: relative;
+  display: inline-block;
+  margin: 0 10px;
+  width: 20px;
+  height: 26px;
+  background: url(../FANART/jingling.png) -218px -29px no-repeat;
+  /* background-color: blue; */
+}
+
+.yonghu {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+}
+
+.yonghu a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #35bede;
+  margin: 0 auto;
+}
+
+.yonghu a img {
+  width: 45px;
+  height: 45px;
+  /* border-radius: 50%; */
+}
+
+.tougao {
+  display: inline-block;
+  width: 94px;
+  height: 45px;
+  line-height: 45px;
+  background-color: #2bbbdc;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 4px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.tougao i {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(../FANART/jingling.png) -108px -239px no-repeat;
+}
+
+
+/* 主体部分 */
+.container {
+  position: relative;
+  width: 1200px;
+  height: 600px;
+  margin: 0 auto;
+  /* background-color: pink; */
+  margin-top: 64px;
+}
+
+.xiangqing {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  width: 940px;
+  height: 21px;
+  font-size: 14px;
+  color: #7d7d7d;
+  /* margin-bottom: 20px; */
+  /* background-color: skyblue; */
+}
+
+/* 侧边栏 */
+.slide {
+  position: fixed;
+  left: 50%;
+  top: 125px;
+  margin-left: 360px;
+  width: 230px;
+  height: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  z-index: 99;
+}
+
+.slide-top {
+  width: 100%;
+  z-index: 6;
+  padding: 30px 0;
+}
+
+.slide-top .huashi {
+  display: block;
+  margin: 0 auto 10px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #2bbbdc;
+  border-radius: 50%;
+
+}
+
+.slide-top img {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.uname-bar {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+}
+
+.uname-bar i {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: url(../FANART/icon.png)-245px 0 no-repeat;
+}
+
+.slide-top .follow {
+  display: block;
+  width: 90px;
+  height: 32px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 4px;
+  line-height: 32px;
+  background-color: #2bbbdc;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.slide-top p {
+  text-align: center;
+  font-size: 14px;
+  color: #525151;
+  margin-top: 8px;
+}
+
+.slide-top ul {
+  padding-top: 28px;
+  overflow: auto;
+  border-top: 1px solid #f1f1f1;
+  margin-top: 24px;
+}
+
+.slide-top ul li {
+  width: 50%;
+  float: left;
+  text-align: center;
+  position: relative;
+}
+
+.slide-top ul li {
+  display: block;
+}
+
+
+
+.slide-top ul li b {
+  color: #000;
+  font-size: 16px;
+}
+
+.slide-top ul li span {
+  font-size: 14px;
+  color: #7d7d7d;
+}
+
+
+/* 作品内容 */
+.cont {
+  position: absolute;
+  left: 0;
+  top: 61px;
+  width: 940px;
+  height: 1428px;
+  padding: 30px 0 40px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.report {
+  width: 100%;
+  height: auto;
+  font-size: 14px;
+  padding-right: 30px;
+  margin-bottom: 8px;
+  text-align: right;
+  cursor: pointer;
+}
+
+.report i {
+  display: inline-block;
+  width: 14px;
+  height: 13px;
+  margin-right: 3px;
+  vertical-align: middle;
+  background: url(../FANART/icon.png) -225px -214px no-repeat;
+}
+
+.title {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-weight: 700;
+  font-size: 28px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.type {
+  width: 100%;
+  text-align: center;
+  color: #aaa;
+  font-size: 14px;
+  /* border-bottom: 2px solid #d4d4d4;*/
+}
+
+.type i {
+  display: inline-block;
+  margin-right: 4px;
+  width: 12px;
+  height: 13px;
+  vertical-align: middle;
+  background: url(../FANART/icon.png) -268px -50px no-repeat;
+}
+
+.time {
+  width: 100%;
+  height: auto;
+  font-size: 14px;
+  color: #7d7d7d;
+  text-align: center;
+  margin: 27px 0 20px;
+}
+
+.time span {
+  margin-right: 40px;
+}
+
+.time i {
+  display: inline-block;
+  width: 18px;
+  height: 12px;
+  vertical-align: middle;
+  margin-right: 2px;
+  background: url(../FANART/icon.png) -218px -197px no-repeat;
+}
+
+.article {
+  width: 880px;
+  height: auto;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #000;
+}
+
+.article img {
+  display: block;
+  margin: 12px auto 0;
+  max-width: 100%;
+  cursor: pointer;
+}
+
+.dianzan {
+  margin: 30px auto 40px;
+  text-align: center;
+}
+
+.dianzan a {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  vertical-align: top;
+  border: 1px solid #dadada;
+  border-radius: 50%;
+  margin: 0 15px;
+  color: #7d7d7d;
+}
+
+.dianzan .icon3 {
+  display: block;
+  margin: 29px auto 13px;
+  width: 26px;
+  height: 17px;
+  background: url(../FANART/icon.png) -58px -214px no-repeat;
+}
+
+.dianzan .icon4 {
+  display: block;
+  margin: 29px auto 13px;
+  width: 23px;
+  height: 23px;
+  background: url(../FANART/icon.png) -56px -157px no-repeat;
+}
+
+.bottom {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.bottom i {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  vertical-align: top;
+  background: url(../FANART/icon.png) -245px -138px no-repeat;
+}
+
+.bottom a {
+  display: inline-block;
+  font-size: 12px;
+  color: #2bbbdc;
+  border: 1px solid #2bbbdc;
+  padding: 0 5px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.cont-other {
+  position: absolute;
+  left: 0;
+  top: 1490px;
+  width: 940px;
+  height: auto;
+  border-radius: 5px;
+  padding: 28px 30px 30px;
+  margin: 20px auto;
+  background-color: #fff;
+}
+
+.other {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.other i {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  vertical-align: bottom;
+  margin-right: 5px;
+  background: url(../FANART/icon.png)-218px -87px no-repeat;
+}
+
+.other-img {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.img {
+  position: relative;
+  width: 205px;
+  height: 185px;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.img img {
+  width: 100%;
+  height: 100%;
+  /* 对图片进行裁剪,保留原有比例 */
+  object-fit: cover;
+}
+
+.img i {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 6px 0;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+/* 评论区 */
+.comment {
+  position: absolute;
+  left: 0;
+  top: 1800px;
+  width: 940px;
+  height: 700px;
+  padding: 30px 23px 1px 30px;
+  margin-bottom: 40px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.comment p {
+  font-size: 14px;
+  color: #7d7d7d;
+}
+
+.comment-text {
+  width: 100%;
+  height: 150px;
+  border: 1px solid #ddd;
+  outline: 0;
+  margin: 10px auto;
+  border-radius: 5px;
+  padding: 5px;
+  overflow: auto;
+  resize: none;
+}
+
+.comment .btn {
+  display: block;
+  width: 126px;
+  height: 38px;
+  background-color: #ffb670;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 38px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.comment-list {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 700;
+  color: #2bbbdc;
+  border-bottom: 3px solid #2bbbdc;
+  padding-bottom: 10px;
+  margin-top: 40px;
+}
+
+.comment-cont {
+  width: 100%;
+}
+
+.comment-cont li {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  /* background-color: pink;  */
+  padding: 0 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.comment-cont li a {
+  float: right;
+}
+
+.wu {
+  padding: 20px 0;
+}
+
+.wu i {
+  display: block;
+  width: 198px;
+  height: 248px;
+  margin: 0 auto 40px;
+  background: url(../FANART/wu.png) no-repeat;
+  zoom: 0.7;
+}
+
+.wu p {
+  text-align: center;
+  font-size: 14px;
+  color: #96a9ad;
+}
+
+
+
+
+/* 底部 */
+.footer {
+  position: absolute;
+  left: 0;
+  top: 2500px;
+  width: 100%;
+  min-width: 1230px;
+  height: 265px;
+  padding: 45px 0;
+  background-color: #e3e2e2;
+  color: #9f9378;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.foot-dark {
+  max-width: 1358px;
+  min-width: 1230px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  padding: 15px 20px;
+}
+
+.foot-left {
+  width: 321px;
+  height: 100px;
+  margin: 10px 0 0 10px;
+}
+
+.foot-left a {
+  display: inline-block;
+  width: 189px;
+  height: 34px;
+  margin-right: 30px;
+  background: url(../upload/jingling3.png) -216px 0 no-repeat;
+}
+
+.foot-left span {
+  display: inline-block;
+  width: 82px;
+  height: 28px;
+  background: url(../upload/jingling3.png) -216px -84px no-repeat;
+}
+
+.foot-right {
+  position: absolute;
+  top: 0;
+  right: 200px;
+  height: 200px;
+  /* background-color: skyblue; */
+}
+
+.foot-right li {
+  height: 20px;
+  line-height: 20px;
+  color: #9f9378;
+}
+
+.foot-right li i {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  background: url(../upload/gongshang.png) no-repeat;
+}

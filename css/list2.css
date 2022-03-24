@@ -1,0 +1,394 @@
+/* 头部模块 */
+body {
+  height: auto; 
+}
+
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 64px;
+  vertical-align: middle;
+  /* background-color: pink; */
+  z-index: 9;
+  background-color: #fff;
+}
+
+.header1 {
+  margin-top: 10px;
+}
+
+.logo {
+  padding-top: 10px;
+  display: inline-block;
+  margin-left: 60px;
+  width: 139px;
+  height: 45px;
+}
+
+.logo img {
+  vertical-align: middle;
+}
+
+.nav-top {
+  display: inline-block;
+  margin: 0 395px 0 53px;
+  vertical-align: middle;
+}
+
+.nav-top li {
+  float: left;
+  margin-right: 50px;
+  height: 33px;
+  line-height: 33px;
+  color: #666;
+  font-size: 16px;
+}
+
+.nav-top li a {
+  font-size: 16px;
+  display: inline-block;
+  height: 33px;
+  width: 64px;
+  color: #7d7d7d;
+}
+
+.nav-top i {
+  display: inline-block;
+  margin-right: 8px;
+  width: 24px;
+  height: 24px;
+  vertical-align: -5px;
+  background: url(../FANART/jingling.png) -160px -87px no-repeat;
+}
+
+.nav-top .item2 {
+  background: url(../FANART/jingling.png) -189px 0 no-repeat;
+}
+
+.nav-top .item3 {
+  background: url(../FANART/jingling.png) -160px -58px no-repeat;
+}
+
+.nav-top .item4 {
+  background: url(../FANART/jingling.png) -29px -214px no-repeat;
+}
+
+.nav-top .on {
+  border-bottom: 3px solid #2bbbdc !important;
+  color: #2bbbdc !important;
+}
+
+/* //返回顶部 */
+.back {
+  display: block;
+  width:60px;
+  height: 60px;
+  font-size: 14px;
+  color: #000;
+  position: fixed;
+  bottom: 0;
+  right: -12px;
+  text-align: center;
+  /* background-color: pink; */
+  cursor: pointer;
+  z-index: 99;
+}
+
+.back i{
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+}
+
+.back i img{
+  width: 100%;
+  height: 100%;
+}
+
+/* 搜索模块 */
+.header-right {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.search {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+}
+
+.search input {
+  width: 176px;
+  height: 32px;
+  background-color: #f1f1f1;
+  border: 1px solid #c9eef6;
+  border-radius: 4px;
+  padding: 0 33px 0 12px;
+
+}
+
+.search a {
+  display: inline-block;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+  width: 17px;
+  height: 17px;
+  background: url(../FANART/jingling.png) -44px -239px no-repeat;
+}
+
+.header-right .xiaoxi {
+  vertical-align: -7px;
+  position: relative;
+  display: inline-block;
+  margin: 0 10px;
+  width: 20px;
+  height: 26px;
+  background: url(../FANART/jingling.png) -218px -29px no-repeat;
+  /* background-color: blue; */
+}
+
+.yonghu {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+}
+
+.yonghu a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #35bede;
+  margin: 0 auto;
+}
+
+.yonghu a img {
+  width: 45px;
+  height: 45px;
+  /* border-radius: 50%; */
+}
+
+.tougao {
+  display: inline-block;
+  width: 94px;
+  height: 45px;
+  line-height: 45px;
+  background-color: #2bbbdc;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 4px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.tougao i {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(../FANART/jingling.png) -108px -239px no-repeat;
+}
+
+/* 图片背景模块 */
+.bg {
+  position: relative;
+  width: 100%;
+  height: 355px;
+  overflow: hidden;
+  margin-top: 68px;
+}
+
+.bg a {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.bg a img {
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-left: -960px;
+  top: 0;
+  width: 1920px;
+  height: 354px;
+}
+
+/* 二级菜单 */
+.second-menu {
+  width: 100%;
+  height: 58px;
+  background-color: #fff;
+  border-bottom: 1px solid #e7e7e7;
+  position: relative;
+}
+
+.type-box {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 1400px;
+  height: 53px;
+  padding: 12px 16px 0;
+  margin: auto;
+}
+
+.type-box a {
+  display: inline-block;
+  width: 88px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 14px;
+  text-align: center;
+  vertical-align: text-bottom;
+}
+
+.type-box a:hover{
+  color: #666;
+}
+
+/* 当鼠标点击之后添加这个类名 */
+.onfocus {
+  border: 1px solid #2bbbdc;
+  border-radius: 5px;
+  color: #fff;
+  background: #2bbbdc;
+}
+
+.menu-box {
+  /* display: table; */
+  width: 271px;
+  height: 58px;
+  /* background: pink; */
+  margin: 0 auto;
+}
+
+.menu-box li {
+  float: left;
+  margin: 0 35px;
+  line-height: 58px;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+}
+
+.menu-box a {
+  display: inline-block;
+  width: 100%;
+  height: 55px;
+  transition: all .5s;
+}
+.menu-box a:hover{
+  border-bottom: 3px solid #7d7d7d;
+  color: #666;
+}
+
+.menu-box .icon1{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 23px;
+  height: 23px;
+  background: url(../FANART/icon.png) -84px -157px no-repeat;
+}
+
+.menu-box .icon2{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 23px;
+  height: 23px;
+  background: url(../FANART/icon.png) -189px -112px no-repeat;
+}
+
+ /* 当鼠标点击 a 就添加 这个类名 */
+.second-menu .on {
+  border-bottom: 3px solid #2bbbdc!important;
+  color: #2bbbdc!important;
+}
+
+/* 瀑布流 */
+.wall{
+  margin: 20px 0 20px 0;
+}
+
+.wall .article{
+  cursor: pointer;
+}
+
+/* 底部模块 */
+.footer {
+  width: 100%;
+  min-width: 1230px;
+  height: 265px;
+  padding: 45px 0;
+  background-color: #e3e2e2;
+  color: #9f9378;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.foot-dark{
+  max-width: 1358px;
+  min-width: 1230px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  padding: 15px 20px;
+}
+
+.foot-left {
+  width: 321px;
+  height: 100px;
+  margin: 10px 0 0 10px;
+}
+
+.foot-left a {
+  display: inline-block;
+  width: 189px;
+  height: 34px;
+  margin-right: 30px;
+  background: url(../upload/jingling3.png) -216px 0 no-repeat;
+}
+
+.foot-left span {
+  display: inline-block;
+  width: 82px;
+  height: 28px;
+  background: url(../upload/jingling3.png) -216px -84px no-repeat;
+}
+
+.foot-right {
+  position: absolute;
+  top: 0;
+  right: 200px;
+  height: 200px;
+  /* background-color: skyblue; */
+}
+
+.foot-right li {
+  height: 20px;
+  line-height: 20px;
+  color: #9f9378;
+}
+
+.foot-right li i{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  background: url(../upload/gongshang.png) no-repeat;
+}
